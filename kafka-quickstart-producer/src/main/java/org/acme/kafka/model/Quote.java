@@ -1,5 +1,8 @@
 package org.acme.kafka.model;
 
+import io.quarkus.runtime.annotations.RegisterForReflection;
+
+@RegisterForReflection
 public class Quote {
 
     public String id;
